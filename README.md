@@ -5,7 +5,7 @@ Em um marketplace competitivo como a Olist, definir o preço correto é crucial.
 
 ### 2. Os Dados
 Utilizou-se o dataset real do E-commerce Brasileiro (Olist) disponível no Kaggle.
-* **Foco:** Análise do produto "Best Seller" da categoria **Móveis e Decoração**.
+* **Foco:** Análise do produto "Best Seller" .
 * **Tabelas processadas:** `olist_order_items` (transações) e `olist_products` (metadados).
 
 ### 3. Metodologia
@@ -15,7 +15,7 @@ Utilizou-se o dataset real do E-commerce Brasileiro (Olist) disponível no Kaggl
   $ln(Quantidade) = \alpha + \beta \cdot ln(Preço)$
 
 ### 4. Resultados Impressionantes
-O modelo identificou uma elasticidade extremamente alta de **-18.09**.
+O modelo identificou uma elasticidade extremamente alta de **-18.09** para `moveis_decoracao`.
 
 **Insight de Negócio:**
 O gráfico abaixo mostra que o produto é **altamente elástico**.
